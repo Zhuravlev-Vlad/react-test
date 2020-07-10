@@ -1,0 +1,20 @@
+.wrap 
+    position: fixed
+    left: 10px
+    top: 10px
+    opacity: .5
+    padding: 10px
+    border-radius: 4px
+    cursor: pointer
+
+    &:hover
+        opacity: 1
+        background: #f5f8fa
+
+    svg path
+        fill: #000
+
+@media screen and ( max-width: 1050px )
+    .wrap
+        position: static
+        margin-top: 10px

@@ -1,0 +1,21 @@
+.wrap
+    position: fixed
+    top: 20px
+    right: 20px
+    background: #ffdada
+    padding: 16px
+    border-radius: 8px
+    transition: .2s
+    z-index: 1
+    max-width: 300px
+    transform: translate(0, 150px)
+
+.show
+    opacity: 1
+    pointer-events: all
+    transform: translate(0)
+
+.hide
+    opacity: 0
+    pointer-events: none
+    transform: translate(0, -150px)

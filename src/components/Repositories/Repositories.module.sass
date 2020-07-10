@@ -1,0 +1,49 @@
+.itemWrap
+    border-radius: 4px
+    border: 1px solid #ccc
+    padding: 16px
+    margin-bottom: 10px
+    display: flex
+.repositoryInfo
+    flex-grow: 1
+.repositoryName
+    font-size: 20px
+    margin-bottom: 10px
+    display: block
+    color: #000
+    &:hover
+        color: #113778
+.repositoryDescription
+    font-size: 16px
+    margin-bottom: 10px
+.repositoryLanguage
+    font-size: 14px
+    color: #6b6b6b
+
+.resultWrap
+    margin-top: 40px
+.owner
+    width: 100%
+    max-width: 150px
+    display: flex
+    flex-direction: column
+.ownerImg
+    width: 40px
+    height: 40px
+    margin-bottom: 10px
+
+.btn
+    height: 100%
+    color: #222
+    margin-left: 10px
+
+@media screen and ( max-width: 768px )
+    .itemWrap
+        flex-direction: column
+        align-items: center
+    .owner
+        align-items: center
+        margin-bottom: 10px
+    .repositoryInfo
+        width: 100%
+        margin-bottom: 10px
